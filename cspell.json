@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "shamisen"
+  ],
+  "ignoreRegExpList": [
+    "/`[^`\\n]+`/g",
+    "/```[\\s\\S]*?```/g",
+    "urls"
+  ]
+}
