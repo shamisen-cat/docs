@@ -1,24 +1,24 @@
-# markdownlint の設定
+# markdownlint configuration
 
-MD001: true   # GitHub は # の次に #### を使用すると表示が崩れるため、見出しの階層スキップを禁止
-MD013: false  # GitHub は折り返しが効くため、1行80文字制限を無効化
-MD026: false  # 見出し末尾の「？」や「！」を許可
-MD028: false  # GitHub Flavored Markdown の引用ブロック対策のため、引用内の空行を許可
-MD034: false  # GitHub は自動でリンクを作成するため、URL の直書きを許可
-MD036: false  # 見出しではない太文字行（**タイトル**など）を許可
+MD001: true   # Require heading levels to increase by one (keeps the outline accessible)
+MD013: false  # Disable the 80-character line limit (GitHub wraps long lines)
+MD026: false  # Allow trailing punctuation such as ? and ! in headings
+MD028: false  # Allow blank lines inside blockquotes
+MD034: false  # Allow bare URLs (GitHub autolinks them)
+MD036: false  # Allow emphasis used as a fake heading (e.g. **Title**)
 
-# 箇条書きのインデント
+# Unordered list indentation
 MD007:
   indent: 2
 
-# HTML タグの許可リスト
-# GitHub で安全にレンダリングされる HTML タグを許可
+# Allowed HTML elements
+# Permit tags that GitHub renders safely
 MD033:
   allowed_elements:
-    - "details"  # 折りたたみ
-    - "summary"  # 折りたたみのタイトル
-    - "br"       # 改行
-    - "img"      # 画像サイズの調整
-    - "kbd"      # キーボードのショートカット表記（<kbd>Ctrl</kbd> + <kbd>C</kbd>）
-    - "sup"      # 上付き文字
-    - "sub"      # 下付き文字
+    - "details"  # collapsible section
+    - "summary"  # collapsible section title
+    - "br"       # line break
+    - "img"      # image sizing
+    - "kbd"      # keyboard shortcuts (e.g. <kbd>Ctrl</kbd> + <kbd>C</kbd>)
+    - "sup"      # superscript
+    - "sub"      # subscript

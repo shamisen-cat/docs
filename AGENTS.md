@@ -1,17 +1,17 @@
-# プロジェクト: 開発ドキュメント
+# Development Docs
 
-このプロジェクトは、技術文書や手順書などをまとめたリポジトリです。
+This repository collects technical documents and how-to guides.
 
-## 編集方針
+## Editing guidelines
 
-- 既存の文体・構成に合わせる
-- 不要なファイルや大規模な再構成は、依頼がない限り行わない
-- 設定変更（markdownlint / cspell など）は意図を確認してから行う
+- Match the existing tone and structure
+- Do not add unnecessary files or make large reorganizations unless asked
+- Confirm intent before changing settings (markdownlint, cspell, etc.)
 
-## ドキュメント
+## Documentation
 
-- Markdown は `.markdownlint.yaml` に従う
+- Follow `.markdownlint.yaml` for Markdown
 
-## コミット
+## Rules
 
-- `.cursor/rules/git-commits.mdc` に従う
+- Follow `.cursor/rules/`

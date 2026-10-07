@@ -1,0 +1,8 @@
+---
+description: How to write pull requests
+alwaysApply: true
+---
+
+# Pull requests
+
+- In the Test plan, use plain bullet points (`-`), not checkboxes (`- [ ]`)

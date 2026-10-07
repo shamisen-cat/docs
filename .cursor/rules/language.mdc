@@ -1,0 +1,10 @@
+---
+description: Project language conventions
+alwaysApply: true
+---
+
+# Language
+
+- Use Japanese for user-facing documentation and version control (commit messages and pull requests); follow `git-commits` and `pull-requests` for those
+- Use English for `AGENTS.md` and `.cursor/rules/`
+- Prefer natural phrasing over literal translation from Japanese
